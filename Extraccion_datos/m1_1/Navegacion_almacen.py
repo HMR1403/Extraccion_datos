@@ -28,10 +28,10 @@ def verificar_recorrido(almacen, movimientos):
         else:
             return False
 
-        if fila < 0 or fila > len(almacen):
+        if fila < 0 or fila >= len(almacen):
             return False
 
-        if columna < 0 or columna > len(almacen[0]):
+        if columna < 0 or columna >= len(almacen[0]):
             return False
 
         if almacen[fila][columna] == '#':
