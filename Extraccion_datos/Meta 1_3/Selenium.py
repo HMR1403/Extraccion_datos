@@ -39,3 +39,4 @@ def navegar(paginas_navegar):
 if __name__ == '__main__':
     numero = simpledialog.askinteger("SELECCIÓN PÁGINAS", "Cuantas páginas quiere navegar (escriba un número)?")
     navegar(numero)
+    #texto para actualizar cambios
